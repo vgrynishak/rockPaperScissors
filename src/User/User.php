@@ -1,9 +1,9 @@
 <?php
 
-namespace User;
+namespace App\User;
 
-use Game\Elements\ElementInterface;
-use Strategy\StrategyInterface;
+use App\Game\Elements\ElementInterface;
+use App\Strategy\StrategyInterface;
 
 class User implements UserInterface
 {

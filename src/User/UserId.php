@@ -1,10 +1,10 @@
 <?php
 
-namespace User;
+namespace App\User;
 
-use Component\ModelId;
-use Exception\InvalidModelIdException;
-use Exception\InvalidUserIdException;
+use App\Component\ModelId;
+use App\Exception\InvalidModelIdException;
+use App\Exception\InvalidUserIdException;
 
 class UserId extends ModelId
 {

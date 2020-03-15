@@ -1,20 +1,19 @@
 <?php
 
-namespace Game\Elements;
+namespace App\Game\Elements;
 
-class ScissorsElement implements ElementInterface
+class PaperElement implements ElementInterface
 {
-    public const SCISSORS = 'scissors';
-
-    /** @var string */
+    public const PAPER = 'paper';
+    /** @var  */
     private $value;
 
     /**
-     * ScissorsElement constructor.
+     * PaperElement constructor.
      */
     public function __construct()
     {
-        $this->value = self::SCISSORS;
+        $this->value = self::PAPER;
     }
 
     /**

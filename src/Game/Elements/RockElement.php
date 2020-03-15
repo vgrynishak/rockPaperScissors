@@ -1,6 +1,6 @@
 <?php
 
-namespace Game\Elements;
+namespace App\Game\Elements;
 
 class RockElement implements ElementInterface
 {

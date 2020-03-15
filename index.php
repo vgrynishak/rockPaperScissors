@@ -1,36 +1,14 @@
 <?php
 
 require __DIR__ . '/vendor/autoload.php';
-require __DIR__.'/User/UserInterface.php';
-require __DIR__.'/Component/UUID/UUID.php';
-require __DIR__. '/User/User.php';
-require __DIR__. '/Component/ModelIdInterface.php';
-require __DIR__. '/Component/ModelId.php';
-require __DIR__. '/User/UserId.php';
-require __DIR__.'/Game/WinnerDefiner/WinnerDefinerInterface.php';
-require __DIR__.'/Game/WinnerDefiner/WinnerDefiner.php';
-require __DIR__.'/Strategy/StrategyInterface.php';
-require __DIR__.'/Strategy/AlwaysPaperStrategy.php';
-require __DIR__.'/Strategy/RandomStrategy.php';
-require __DIR__.'/Game/Elements/ElementInterface.php';
-require __DIR__.'/Game/Elements/PaperElement.php';
-require __DIR__.'/Game/Elements/RockElement.php';
-require __DIR__.'/Game/Elements/ScissorsElement.php';
-require __DIR__.'/Exception/StrategyNotSelected.php';
-require __DIR__.'/Exception/InvalidModelIdException.php';
-require __DIR__.'/Exception/InvalidUserIdException.php';
 
-//spl_autoload_register(function ($class_name) {
-//    include $class_name . '.php';
-//});
-
-use User\User;
-use User\UserId;
-use Component\UUID\UUID;
-use Strategy\AlwaysPaperStrategy;
-use Strategy\RandomStrategy;
-use Game\WinnerDefiner\WinnerDefiner;
-use User\UserInterface;
+use App\User\User;
+use App\User\UserId;
+use App\Component\UUID\UUID;
+use App\Strategy\AlwaysPaperStrategy;
+use App\Strategy\RandomStrategy;
+use App\Game\WinnerDefiner\WinnerDefiner;
+use App\User\UserInterface;
 
 try {
     $winnerDefiner = new WinnerDefiner();

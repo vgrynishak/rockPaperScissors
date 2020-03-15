@@ -1,9 +1,8 @@
 <?php
 
-namespace Game\WinnerDefiner;
+namespace App\Game\WinnerDefiner;
 
-use Game\Elements\ElementInterface;
-use User\UserInterface;
+use App\User\UserInterface;
 
 interface WinnerDefinerInterface
 {

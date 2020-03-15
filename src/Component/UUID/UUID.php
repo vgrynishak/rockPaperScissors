@@ -1,6 +1,6 @@
 <?php
 
-namespace Component\UUID;
+namespace App\Component\UUID;
 
 use Ramsey\Uuid\Uuid as UuidGenerator;
 

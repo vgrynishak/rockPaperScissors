@@ -1,6 +1,6 @@
 <?php
 
-namespace Component;
+namespace App\Component;
 
 use Exception\InvalidModelIdException;
 use Ramsey\Uuid\Uuid as UuidGenerator;

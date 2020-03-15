@@ -1,11 +1,11 @@
 <?php
 
-namespace Strategy;
+namespace App\Strategy;
 
-use Game\Elements\ElementInterface;
-use Game\Elements\PaperElement;
-use Game\Elements\RockElement;
-use Game\Elements\ScissorsElement;
+use App\Game\Elements\ElementInterface;
+use App\Game\Elements\PaperElement;
+use App\Game\Elements\RockElement;
+use App\Game\Elements\ScissorsElement;
 
 class RandomStrategy implements StrategyInterface
 {

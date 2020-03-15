@@ -1,9 +1,9 @@
 <?php
 
-namespace Strategy;
+namespace App\Strategy;
 
-use Game\Elements\ElementInterface;
-use Game\Elements\PaperElement;
+use App\Game\Elements\ElementInterface;
+use App\Game\Elements\PaperElement;
 
 class AlwaysPaperStrategy implements StrategyInterface
 {

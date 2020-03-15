@@ -1,12 +1,12 @@
 <?php
 
-namespace Game\WinnerDefiner;
+namespace App\Game\WinnerDefiner;
 
-use Exception\StrategyNotSelected;
-use Game\Elements\PaperElement;
-use Game\Elements\RockElement;
-use Game\Elements\ScissorsElement;
-use User\UserInterface;
+use App\Exception\StrategyNotSelected;
+use App\Game\Elements\PaperElement;
+use App\Game\Elements\RockElement;
+use App\Game\Elements\ScissorsElement;
+use App\User\UserInterface;
 
 class WinnerDefiner implements WinnerDefinerInterface
 {
