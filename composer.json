@@ -1,0 +1,12 @@
+{
+    "name": "home/test",
+    "authors": [
+        {
+            "name": "Volodya Grunishak",
+            "email": "vgrynishak@gmail.com"
+        }
+    ],
+    "require": {
+        "ramsey/uuid": "^3.9"
+    }
+}
